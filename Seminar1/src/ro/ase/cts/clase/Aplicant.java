@@ -5,65 +5,80 @@ public abstract class Aplicant{
 	protected String prenume;
 	protected int varsta;
 	protected int punctaj;
-	protected int nr_proiecte;
+	protected int nrProiecte;
 	protected String[] denumireProiect;
-	
-	
-	public String getNume() {
-		return nume;
+
+	public Aplicant() {
+		super();
 	}
+
+	public Aplicant(String nume, String prenume, int varsta, int punctaj, int nrProiecte, String[] denumireProiect) {
+		super();
+		this.nume = nume;
+		this.prenume = prenume;
+		this.varsta = varsta;
+		this.punctaj = punctaj;
+		this.nrProiecte = nrProiecte;
+		this.denumireProiect = denumireProiect;
+	}
+
+	public String getNume() {
+		return this.nume;
+	}
+
 	public void setNume(String nume) {
 		this.nume = nume;
 	}
+
 	public String getPrenume() {
-		return prenume;
+		return this.prenume;
 	}
+
 	public void setPrenume(String prenume) {
 		this.prenume = prenume;
 	}
+
 	public int getVarsta() {
-		return varsta;
+		return this.varsta;
 	}
+
 	public void setVarsta(int varsta) {
 		this.varsta = varsta;
 	}
-	public void statut(){
-		if(punctaj>80)
-			System.out.println("Aplicantul "+nume+" "+prenume+" a fost acceptat.");
-		else
-			System.out.println("Aplicantul "+nume+" "+prenume+" nu a fost acceptat.");
-		}
+
 	public int getPunctaj() {
-		return punctaj;
+		return this.punctaj;
 	}
+
 	public void setPunctaj(int punctaj) {
 		this.punctaj = punctaj;
 	}
-	
-	
 
-	
-	public Aplicant() {
-		super();
-		// TODO Auto-generated constructor stub
+	public int getNrProiecte() {
+		return this.nrProiecte;
 	}
-	public Aplicant(String nume, String prenume, int varsta, int punctaj, int nr_proiecte, String[] denumireProiect) {
-		super();
-		this.nume = nume;
-		this.prenume = prenume;
-		this.varsta = varsta;
-		this.punctaj = punctaj;
-		this.nr_proiecte = nr_proiecte;
+
+	public void setNrProiecte(int nrProiecte) {
+		this.nrProiecte = nrProiecte;
+	}
+
+	public String[] getDenumireProiect() {
+		return this.denumireProiect;
+	}
+
+	public void setDenumireProiect(String[] denumireProiect) {
 		this.denumireProiect = denumireProiect;
 	}
-	public int getNr_proiecte() {
-		return nr_proiecte;
-	}
-	public void setNr_proiecte(int nr_proiecte) {
-		this.nr_proiecte = nr_proiecte;
-	}
-	public void setVect(String[] vect){
-		this.denumireProiect = vect;
+
+	public boolean statut(){
+		if(this.punctaj > 80) {
+			System.out.println("Aplicantul " + this.nume + " " + this.prenume + " a fost acceptat.");
+			return true;
+		}
+
+		System.out.println("Aplicantul " + this.nume + " " + this.prenume + " nu a fost acceptat.");
+		return false;
 	}
 
+	public abstract int finantare(int suma);
 }

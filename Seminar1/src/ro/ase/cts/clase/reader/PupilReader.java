@@ -12,19 +12,20 @@ import java.util.Scanner;
 public class PupilReader extends AplicantReader{
     @Override
     public List<Aplicant> readAplicanti(String file) throws FileNotFoundException {
-        Scanner input2 = new Scanner(new File(file));
-        input2.useDelimiter(",|\n");
-        List<Aplicant> elevi = new ArrayList<Aplicant>();
 
-        while (input2.hasNext()) {
+        Scanner fileScanner = new Scanner(new File(file));
+        fileScanner.useDelimiter(",|\n");
+        List<Aplicant> elevi = new ArrayList<>();
+
+        while (fileScanner.hasNext()) {
             Elev elev = new Elev();
-            super.readApplicant(input2, elev);
-            elev.setClasa(input2.nextInt());
-            elev.setTutore(input2.next());
+            super.readApplicant(fileScanner, elev);
+            elev.setClasa(fileScanner.nextInt());
+            elev.setTutore(fileScanner.next());
             elevi.add(elev);
         }
 
-        input2.close();
+        fileScanner.close();
         return elevi;
     }
 }
