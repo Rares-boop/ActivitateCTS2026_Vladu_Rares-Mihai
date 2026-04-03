@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/A/A.iml" filepath="$PROJECT_DIR$/A/A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AgentieTurism/AgentieTurism.iml" filepath="$PROJECT_DIR$/AgentieTurism/AgentieTurism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AplicatieBroadcasting/AplicatieBroadcasting.iml" filepath="$PROJECT_DIR$/AplicatieBroadcasting/AplicatieBroadcasting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AplicatieMobila/AplicatieMobila.iml" filepath="$PROJECT_DIR$/AplicatieMobila/AplicatieMobila.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Autobuz/Autobuz.iml" filepath="$PROJECT_DIR$/Autobuz/Autobuz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/B/B.iml" filepath="$PROJECT_DIR$/B/B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BratRobotic/BratRobotic.iml" filepath="$PROJECT_DIR$/BratRobotic/BratRobotic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/C/C.iml" filepath="$PROJECT_DIR$/C/C.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cafenea/Cafenea.iml" filepath="$PROJECT_DIR$/Cafenea/Cafenea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalitateAer/CalitateAer.iml" filepath="$PROJECT_DIR$/CalitateAer/CalitateAer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClubSportiv/ClubSportiv.iml" filepath="$PROJECT_DIR$/ClubSportiv/ClubSportiv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D/D.iml" filepath="$PROJECT_DIR$/D/D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/E/E.iml" filepath="$PROJECT_DIR$/E/E.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LIcentaTurism/LIcentaTurism.iml" filepath="$PROJECT_DIR$/LIcentaTurism/LIcentaTurism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MagazinMall/MagazinMall.iml" filepath="$PROJECT_DIR$/MagazinMall/MagazinMall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PlatformaLive/PlatformaLive.iml" filepath="$PROJECT_DIR$/PlatformaLive/PlatformaLive.iml" />
       <module fileurl="file://$PROJECT_DIR$/Random/Random.iml" filepath="$PROJECT_DIR$/Random/Random.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Restaurant/Restaurant.iml" filepath="$PROJECT_DIR$/Restaurant/Restaurant.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar0/Seminar0.iml" filepath="$PROJECT_DIR$/Seminar0/Seminar0.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar1/Seminar1.iml" filepath="$PROJECT_DIR$/Seminar1/Seminar1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar2/Seminar2.iml" filepath="$PROJECT_DIR$/Seminar2/Seminar2.iml" />
@@ -11,6 +28,9 @@
       <module fileurl="file://$PROJECT_DIR$/Seminar5/Seminar5.iml" filepath="$PROJECT_DIR$/Seminar5/Seminar5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar6/Seminar6.iml" filepath="$PROJECT_DIR$/Seminar6/Seminar6.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminarii.iml" filepath="$PROJECT_DIR$/Seminarii.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Service/Service.iml" filepath="$PROJECT_DIR$/Service/Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServiceAuto/ServiceAuto.iml" filepath="$PROJECT_DIR$/ServiceAuto/ServiceAuto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spital/Spital.iml" filepath="$PROJECT_DIR$/Spital/Spital.iml" />
     </modules>
   </component>
 </project>
