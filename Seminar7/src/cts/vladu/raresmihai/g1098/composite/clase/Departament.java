@@ -1,14 +1,15 @@
 package cts.vladu.raresmihai.g1098.composite.clase;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Departament implements DepartamentAbstarct {
     private String nume;
     private List<DepartamentAbstarct> listaDepartamente;
 
-    public Departament(String nume, List<DepartamentAbstarct> listaDepartamente) {
+    public Departament(String nume) {
         this.nume = nume;
-        this.listaDepartamente = listaDepartamente;
+        this.listaDepartamente = new ArrayList<>();
     }
 
     @Override
